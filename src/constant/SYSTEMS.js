@@ -1,10 +1,4 @@
-import {
-    faCarBattery,
-    faChartColumn, faEnvelope,
-    faScaleBalanced,
-    faScaleUnbalancedFlip,
-    faStamp
-} from "@fortawesome/free-solid-svg-icons";
+import {faCarBattery, faChartColumn, faEnvelope, faScaleBalanced, faStamp} from "@fortawesome/free-solid-svg-icons";
 
 const systems = [
     {title: "MES", path:"192.168.1.37", icon:faChartColumn},

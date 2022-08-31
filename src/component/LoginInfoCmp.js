@@ -40,6 +40,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   margin-right: 20px;
+  width: 15%;
 `
 
 const UserInfo = styled.span`

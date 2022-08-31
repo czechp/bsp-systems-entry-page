@@ -6,7 +6,6 @@ import theme from "./configuration/style/theme";
 import GlobalStyles from "./configuration/style/globalStyles";
 import ContainerLayout, {StickyTopContainer} from "./layout/ContainerLayout";
 import TopBarLayout from "./layout/TopBarLayout";
-import NavigationBarLayout from "./layout/NavigationBarLayout";
 import {createStatementContext, useProvideStatementValues} from "./context/useStatementContext";
 import LoginRequirementPage from "./useCase/warningPages/LoginRequirementPage";
 import StatementCmp from "./component/StatementCmp";
