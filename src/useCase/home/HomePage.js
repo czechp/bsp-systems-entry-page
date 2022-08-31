@@ -50,7 +50,6 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   flex-flow: wrap;
-  justify-content: center;
 `;
 
 const Tile = styled.div`
