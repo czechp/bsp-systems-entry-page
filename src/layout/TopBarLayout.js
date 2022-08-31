@@ -9,8 +9,8 @@ const TopBarLayout = () => {
         <Container>
             <TitleContainer>
                 <Title>
-                    <TitleHeader>Title</TitleHeader>
-                    <TitleSubheader>Subtitle</TitleSubheader>
+                    <TitleHeader>Bispol</TitleHeader>
+                    <TitleSubheader>Punkt wejścia do systemów automatyki</TitleSubheader>
                 </Title>
             </TitleContainer>
             <LogoContainer>
