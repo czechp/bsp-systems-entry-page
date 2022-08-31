@@ -18,7 +18,6 @@ const HomePage = () => {
     return <PageCmp title="Strona główna" loaded={loaded}>
         <Container>
             <TileCmp path="/" title={"Strona główna"} icon={faHome}/>
-            <TileCmp path="/accounts" title={"Użytkownicy"} icon={faUser}/>
         </Container>
     </PageCmp>
 }
