@@ -7,7 +7,7 @@ RUN sudo apt-get install -y nodejs
 RUN apt-get install git -y
 RUN mkdir ProjectPage
 WORKDIR /ProjectPage
-RUN git clone https://github.com/czechp/frontend-template.git .
+RUN git clone https://github.com/czechp/bsp-systems-entry-page.git .
 RUN npm install
 RUN npm run build
 WORKDIR /ProjectPage/build
