@@ -7,6 +7,7 @@ import {faHome, faUser} from "@fortawesome/free-solid-svg-icons";
 import PageCmp from "../../component/PageCmp";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import openLinkInNewTab from "../../service/utils/openLinkInNewTab";
+import systems from "../../constant/SYSTEMS";
 
 const HomePage = () => {
     const [loaded, setLoaded] = React.useState(false);
@@ -17,7 +18,13 @@ const HomePage = () => {
 
     return <PageCmp title="Strona główna" loaded={loaded}>
         <Container>
-            <TileCmp path="/" title={"Strona główna"} icon={faHome}/>
+            {
+                systems.map((system, index)=><TileCmp
+                    title={system.title}
+                    path={system.path}
+                    icon={system.icon}
+                    external={true}/>)
+            }
         </Container>
     </PageCmp>
 }
