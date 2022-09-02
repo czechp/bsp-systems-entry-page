@@ -20,6 +20,7 @@ const HomePage = () => {
             {
                 systems.map((system, index)=><TileCmp
                     title={system.title}
+                    subtitle={system.subtitle}
                     path={system.path}
                     icon={system.icon}
                     external={true}/>)
@@ -28,7 +29,7 @@ const HomePage = () => {
     </PageCmp>
 }
 
-const TileCmp = ({title, icon, path, external}) => {
+const TileCmp = ({title, subtitle, icon, path, external}) => {
 
     function tileOnClick() {
         if(external)
@@ -41,6 +42,7 @@ const TileCmp = ({title, icon, path, external}) => {
     return <Tile onClick={tileOnClick}>
         <TileHeader>{title}</TileHeader>
         <FontAwesomeIcon icon={icon} size={"5x"}/>
+        {subtitle && <TileSubheader>{subtitle}</TileSubheader> }
     </Tile>
 }
 
@@ -74,4 +76,7 @@ const TileHeader = styled.h3`
     margin: 0 0 2rem 0;
 `;
 
+const TileSubheader = styled.h6`
+    margin: 2rem 0 0 0;
+`;
 export default HomePage;

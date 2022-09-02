@@ -8,6 +8,7 @@ const systems = [
     {title: "FAMAG", path: "192.168.2.105", icon: faStamp},
     {title: "WAGA L-22", path: "192.168.2.120", icon: faScaleBalanced },
     {title: "EMAIL", path: "192.168.1.35", icon: faEnvelope },
+    {title: "WAGI TEALIGHT", subtitle: "Twają prace nad uruchomieniem systemu", path: "192.168.6.94:9001", icon: faScaleBalanced },
 
 ];
 
