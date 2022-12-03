@@ -1,14 +1,22 @@
-import {faCarBattery, faChartColumn, faEnvelope, faScaleBalanced, faStamp} from "@fortawesome/free-solid-svg-icons";
+import {
+    faCarBattery,
+    faChartColumn,
+    faEnvelope,
+    faScaleBalanced,
+    faStamp,
+    faTemperature4
+} from "@fortawesome/free-solid-svg-icons";
 
 const systems = [
-    {title: "MES", path:"192.168.1.37", icon:faChartColumn},
-    {title: "WAGI TEALIGHT", path: "192.168.6.94:9001", icon: faScaleBalanced },
+    {title: "MES", path: "192.168.1.37", icon: faChartColumn},
+    {title: "WAGI TEALIGHT", path: "192.168.6.94:9001", icon: faScaleBalanced},
+    {title: "Pomiar temp. laboratorium", path: "192.168.1.71", icon: faTemperature4},
     {title: "UTB-D", path: "192.168.2.101", icon: faCarBattery},
     {title: "UTB-AS", path: "192.168.2.115", icon: faCarBattery},
     {title: "UTB-F", path: "192.168.2.132", icon: faCarBattery},
     {title: "FAMAG", path: "192.168.2.105", icon: faStamp},
-    {title: "EMAIL", path: "192.168.1.35", icon: faEnvelope },
+    {title: "EMAIL", path: "192.168.1.35", icon: faEnvelope},
 
 ];
 
-export default  systems;
+export default systems;

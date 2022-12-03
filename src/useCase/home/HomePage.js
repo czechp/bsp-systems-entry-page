@@ -74,6 +74,8 @@ const Tile = styled.div`
 
 const TileHeader = styled.h3`
     margin: 0 0 2rem 0;
+    text-align: center;
+    min-height: 50px;
 `;
 
 const TileSubheader = styled.h6`
