@@ -9,7 +9,7 @@ import {
 
 const systems = [
     {title: "Zamówienia automatycy", path: "192.168.6.100:9001", icon: faList},
-    {title: "MES", path: "192.168.1.37", icon: faChartColumn},
+    {title: "MES", path: "192.168.6.100:9005", icon: faChartColumn},
     {title: "WAGI TEALIGHT", path: "192.168.6.94:9001", icon: faScaleBalanced},
     {title: "Pomiar temp. laboratorium", path: "192.168.1.71", icon: faTemperature4},
     {title: "UTB-D", path: "192.168.2.101", icon: faCarBattery},
