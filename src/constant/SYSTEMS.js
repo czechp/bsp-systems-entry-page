@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const systems = [
-    {title: "UTB", path: "192.168.6.102:9011", icon: faCarBattery},
+    {title: "UTB", path: "bsp-server-3.bispol.pl:9011", icon: faCarBattery},
     {title: "Zamówienia automatycy", path: "bsp-server-2.bispol.pl:9001", icon: faList},
     {title: "MES", path: "bsp-server-2.bispol.pl:9005", icon: faChartColumn},
     {title: "WAGI TEALIGHT", path: "bsp-server-1.bispol.pl:9001", icon: faScaleBalanced},
