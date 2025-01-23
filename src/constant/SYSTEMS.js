@@ -14,6 +14,7 @@ const systems = [
     {title: "WAGI TEALIGHT", path: "bsp-server-1.bispol.pl:9001", icon: faScaleBalanced},
     {title: "Pomiar temp. laboratorium", path: "192.168.1.71", icon: faTemperature4},
     {title: "FAMAG", path: "192.168.2.105", icon: faStamp},
+    {title: "FAMAG - NOWY", path: "bsp-server-4.bispol.pl:9000", icon: faStamp},
 ];
 
 export default systems;
