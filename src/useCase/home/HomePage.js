@@ -64,6 +64,7 @@ const Tile = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+    min-height: 20rem;
 
   &:hover {
     cursor: pointer;
@@ -75,7 +76,7 @@ const Tile = styled.div`
 const TileHeader = styled.h3`
     margin: 0 0 2rem 0;
     text-align: center;
-    min-height: 50px;
+    min-height: 5rem;
 `;
 
 const TileSubheader = styled.h6`
